@@ -9,7 +9,7 @@
 [LOG] DownMix::init                            : done.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000023AFA89D108 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001DC19AB1458 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -18,23 +18,242 @@
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
-[LOG] SoundI::release                          : 307680-PM-OF-Designed-Soundscape-LOOP-32 (0000023A4B13DD68)
-[LOG] SoundI::release                          :     307680-PM-OF-Designed-Soundscape-LOOP-32 (0000023AB0FA6EB8)
-[LOG] SoundI::release                          :     307680-PM-OF-Designed-Soundscape-LOOP-32 (0000023AF3CC3DF8)
-[LOG] SoundI::release                          : 307681-PM-OF-Designed-Soundscape-LOOP-4 (0000023A4B13DF18)
-[LOG] SoundI::release                          :     307681-PM-OF-Designed-Soundscape-LOOP-4 (0000023AB0FA64F8)
-[LOG] SoundI::release                          :     307681-PM-OF-Designed-Soundscape-LOOP-4 (0000023AF3CC13C8)
-[LOG] SoundI::release                          : 337584-Horror_accent_-sci-fi_soundscape_-soul_factory (0000023843C23088)
-[LOG] SoundI::release                          :     337584-Horror_accent_-sci-fi_soundscape_-soul_factory (0000023AB0FA6698)
-[LOG] SoundI::release                          :     337584-Horror_accent_-sci-fi_soundscape_-soul_factory (0000023AF3CC1068)
-[LOG] SoundI::release                          :  (00000238441DD2A8)
-[LOG] SoundI::release                          :     space_2 (0000023AB0FA4FD8)
-[LOG] SoundI::release                          :  (00000238441DD868)
-[LOG] SoundI::release                          :     space_3 (0000023AB0FA2738)
-[LOG] SoundI::release                          :  (00000238441DD588)
-[LOG] SoundI::release                          :     space_4 (0000023AB0FA5178)
-[LOG] SoundI::release                          :  (00000238441DDB48)
-[LOG] SoundI::release                          :     space_5 (0000023AB0FA6358)
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DC0A015298
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DC0A015298
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DC0A015CB8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DC0A015CB8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DC0A0155F8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DC0A0155F8
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 8162048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 32480
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000B4006FF448
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD30037D70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD30037D40
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD30037E40
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD30037F00
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DC04AF2348
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='EnemyDeath', format=5, channels=2, frequency=48000, lengthbytes=22528, lengthpcm=69394, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.351281.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 8162048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 32480
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000B4006FF448
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD30037D70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD30037D40
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD30037E40
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD30037F00
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DC1967F6E8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='224644-distorted-interfaces-various-25', format=5, channels=2, frequency=48000, lengthbytes=12128, lengthpcm=47763, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] SystemI::createSound                     : filename = ../../AA4_FMOD/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001DC0E13E2A8 : node = 000001DC04BF3740
+[LOG] SystemI::createSound                     : add node to async list : head = 000001DBF592FDA8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DC0E13E2A8
+[LOG] SystemI::createSoundInternal             :     Create name='../../AA4_FMOD/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8162048
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32480
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001DC04BF3850
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Towin_stinger', format=5, channels=2, frequency=48000, lengthbytes=72256, lengthpcm=522622, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.244103.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DC0E13E2A8
+[LOG] SystemI::createSound                     : filename = ../../AA4_FMOD/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001DC0E13E608 : node = 000001DC04BF3600
+[LOG] SystemI::createSound                     : add node to async list : head = 000001DBF592FDA8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DC0E13E608
+[LOG] SystemI::createSoundInternal             :     Create name='../../AA4_FMOD/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8162048
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32480
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001DC04BF3710
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Scifi Ico Loop', format=5, channels=2, frequency=48000, lengthbytes=286016, lengthpcm=1086137, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.730042.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DC0E13E608
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DBF4C7E978
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DBF4C7E978
+[LOG] SoundI::release                          : Airflow - Sci-Fi Cinematic Loops Demo (000001DC0AEA4748)
+[LOG] SoundI::release                          :     Airflow - Sci-Fi Cinematic Loops Demo (000001DBAB3A6588)
+[LOG] SoundI::release                          :     Airflow - Sci-Fi Cinematic Loops Demo (000001DC0A015448)
+[LOG] SoundI::release                          : Towin_stinger (000001DC0E13E2A8)
+[LOG] SoundI::release                          :     Towin_stinger (000001DC0B161438)
+[LOG] SoundI::release                          :     Towin_stinger (000001DC0A015958)
+[LOG] SoundI::release                          : 307680-PM-OF-Designed-Soundscape-LOOP-32 (000001DC0AEAA418)
+[LOG] SoundI::release                          :     307680-PM-OF-Designed-Soundscape-LOOP-32 (000001DC0B160F58)
+[LOG] SoundI::release                          :     307680-PM-OF-Designed-Soundscape-LOOP-32 (000001DC0A0155F8)
+[LOG] SoundI::release                          : 307681-PM-OF-Designed-Soundscape-LOOP-4 (000001DC0AEA6248)
+[LOG] SoundI::release                          :     307681-PM-OF-Designed-Soundscape-LOOP-4 (000001DBD12D1088)
+[LOG] SoundI::release                          :     307681-PM-OF-Designed-Soundscape-LOOP-4 (000001DC0A015CB8)
+[LOG] SoundI::release                          : 337584-Horror_accent_-sci-fi_soundscape_-soul_factory (000001DC0AEA4E08)
+[LOG] SoundI::release                          :     337584-Horror_accent_-sci-fi_soundscape_-soul_factory (000001DBD12D18A8)
+[LOG] SoundI::release                          :     337584-Horror_accent_-sci-fi_soundscape_-soul_factory (000001DC0A015298)
+[LOG] SystemI::createSound                     : filename = ../../AA4_FMOD/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001DC62B1C6D8 : node = 000001DC19221C40
+[LOG] SystemI::createSound                     : add node to async list : head = 000001DBF592FDA8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DC62B1C6D8
+[LOG] SystemI::createSoundInternal             :     Create name='../../AA4_FMOD/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8162048
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32480
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001DC19221D50
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     filename = ../../AA4_FMOD/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 000001DC62B1CA38 : node = 000001DC19221EC0
+[LOG] SystemI::createSound                     :     add node to async list : head = 000001DBF592FDA8.  list count = 0
+[LOG] SystemI::createSound                     :     filename = ../../AA4_FMOD/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 000001DC62B1CBE8 : node = 000001DC19222000
+[LOG] SystemI::createSound                     :     add node to async list : head = 000001DBF592FDA8.  list count = 1
+[LOG] SystemI::createSound                     :     filename = ../../AA4_FMOD/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 000001DC0CB291C8 : node = 000001DC192219C0
+[LOG] SystemI::createSound                     :     add node to async list : head = 000001DBF592FDA8.  list count = 2
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Airflow - Sci-Fi Cinematic Loops Demo', format=5, channels=2, frequency=48000, lengthbytes=4363456, lengthpcm=16208458, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DC62B1C6D8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DC62B1CA38
+[LOG] SystemI::createSoundInternal             :     Create name='../../AA4_FMOD/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8162048
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32480
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001DC19221FD0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='337584-Horror_accent_-sci-fi_soundscape_-soul_factory', format=5, channels=2, frequency=48000, lengthbytes=851008, lengthpcm=3096576, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.435577.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DC62B1CA38
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DC62B1CBE8
+[LOG] SystemI::createSoundInternal             :     Create name='../../AA4_FMOD/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8162048
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32480
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001DC19222110
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='307681-PM-OF-Designed-Soundscape-LOOP-4', format=5, channels=2, frequency=48000, lengthbytes=1144448, lengthpcm=6240000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.803835.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DC62B1CBE8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DC0CB291C8
+[LOG] SystemI::createSoundInternal             :     Create name='../../AA4_FMOD/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8162048
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32480
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001DC19221AD0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='307680-PM-OF-Designed-Soundscape-LOOP-32', format=5, channels=2, frequency=48000, lengthbytes=1113824, lengthpcm=4704000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.625039.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DC0CB291C8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DC048E86D8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DC048E86D8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DC0AB0A458
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DC0AB0A458
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DC048E8528
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DC048E8528
+[LOG] SystemI::createSound                     : filename = ../../AA4_FMOD/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001DC0CB28B08 : node = 000001DC0E4011C0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001DBF592FDA8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DC0CB28B08
+[LOG] SystemI::createSoundInternal             :     Create name='../../AA4_FMOD/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8162048
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32480
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001DC0E4012D0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 5968
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Scifi Ico Loop', format=5, channels=2, frequency=48000, lengthbytes=286016, lengthpcm=1086137, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.730042.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DC0CB28B08
+[LOG] SoundI::release                          : Scifi Ico Loop (000001DC0E13E608)
+[LOG] SoundI::release                          :     Scifi Ico Loop (000001DC0CB2B828)
+[LOG] SoundI::release                          :     Scifi Ico Loop (000001DBF4C7E978)
+[LOG] SoundI::release                          :  (000001DC0DDC6388)
+[LOG] SoundI::release                          :     EnemyDeath (000001DC0CB2B348)
+[LOG] SoundI::release                          :  (000001DC0AB0C4F8)
+[LOG] SoundI::release                          :     224644-distorted-interfaces-various-25 (000001DBFF0CB408)
+[LOG] SoundI::release                          :  (000001DC0C512988)
+[LOG] SoundI::release                          :     442269-Space-Sci_Fi-11 (000001DC1985C878)
+[LOG] SoundI::release                          : 307680-PM-OF-Designed-Soundscape-LOOP-32 (000001DC0CB291C8)
+[LOG] SoundI::release                          :     307680-PM-OF-Designed-Soundscape-LOOP-32 (000001DBD12D1088)
+[LOG] SoundI::release                          :     307680-PM-OF-Designed-Soundscape-LOOP-32 (000001DC048E8528)
+[LOG] SoundI::release                          : 307681-PM-OF-Designed-Soundscape-LOOP-4 (000001DC62B1CBE8)
+[LOG] SoundI::release                          :     307681-PM-OF-Designed-Soundscape-LOOP-4 (000001DBD12D1A48)
+[LOG] SoundI::release                          :     307681-PM-OF-Designed-Soundscape-LOOP-4 (000001DC048E86D8)
+[LOG] SoundI::release                          : 337584-Horror_accent_-sci-fi_soundscape_-soul_factory (000001DC62B1CA38)
+[LOG] SoundI::release                          :     337584-Horror_accent_-sci-fi_soundscape_-soul_factory (000001DBD12D18A8)
+[LOG] SoundI::release                          :     337584-Horror_accent_-sci-fi_soundscape_-soul_factory (000001DC0AB0A458)
+[LOG] SoundI::release                          : Scifi Ico Loop (000001DC0CB28B08)
+[LOG] SoundI::release                          :     Scifi Ico Loop (000001DC001C10B8)
+[LOG] SoundI::release                          :     Scifi Ico Loop (000001DBAC67C288)
+[LOG] SoundI::release                          : Airflow - Sci-Fi Cinematic Loops Demo (000001DC62B1C6D8)
+[LOG] SoundI::release                          :     Airflow - Sci-Fi Cinematic Loops Demo (000001DBD12D1708)
+[LOG] SoundI::release                          :     Airflow - Sci-Fi Cinematic Loops Demo (000001DC0AB0AE78)
+[LOG] SoundI::release                          :  (000001DC0C512AF8)
+[LOG] SoundI::release                          :     408778-Future_Weapons_3_-Source-Sounds-Laser-Shot-07 (000001DC00265DC8)
+[LOG] SoundI::release                          :  (000001DC62C2E7D8)
+[LOG] SoundI::release                          :     408783-Future_Weapons_3_-Source-Sounds-Laser-Shot-12 (000001DC1985C538)
+[LOG] SoundI::release                          :  (000001DC0E713748)
+[LOG] SoundI::release                          :     space_2 (000001DC00265A88)
+[LOG] SoundI::release                          :  (000001DC0C5120E8)
+[LOG] SoundI::release                          :     space_3 (000001DC1985BEB8)
+[LOG] SoundI::release                          :  (000001DC0C512538)
+[LOG] SoundI::release                          :     space_4 (000001DC1985C1F8)
+[LOG] SoundI::release                          :  (000001DC62C2EAB8)
+[LOG] SoundI::release                          :     space_5 (000001DC001C1C18)
+[LOG] SoundI::release                          :  (000001DC0C512258)
+[LOG] SoundI::release                          :     Footsteps_Desk02 (000001DC00265748)
+[LOG] SoundI::release                          :  (000001DC0C5123C8)
+[LOG] SoundI::release                          :     Footsteps_Desk03 (000001DC1985C058)
+[LOG] SoundI::release                          :  (000001DC62C2EC28)
+[LOG] SoundI::release                          :     Footsteps_Desk04 (000001DC001C13F8)
+[LOG] SoundI::release                          :  (000001DC0C512DD8)
+[LOG] SoundI::release                          :     Footsteps_Desk01 (000001DC00265C28)
+[LOG] SoundI::release                          :  (000001DC62C2E948)
+[LOG] SoundI::release                          :     Footsteps_Metal01 (000001DC1985C398)
+[LOG] SoundI::release                          :  (000001DC0E713A28)
+[LOG] SoundI::release                          :     Footsteps_Metal02 (000001DC002655A8)
+[LOG] SoundI::release                          :  (000001DC0C512C68)
+[LOG] SoundI::release                          :     Footsteps_Metal03 (000001DC1985CBB8)
+[LOG] SoundI::release                          :  (000001DC0C512818)
+[LOG] SoundI::release                          :     Footsteps_Metal04 (000001DC1985C6D8)
+[LOG] SoundI::release                          :  (000001DC62C2E668)
+[LOG] SoundI::release                          :     Footsteps_Normal01 (000001DC001C1738)
+[LOG] SoundI::release                          :  (000001DC0C5126A8)
+[LOG] SoundI::release                          :     Footsteps_Normal02 (000001DC1985CA18)
+[LOG] SoundI::release                          :  (000001DC0E7138B8)
+[LOG] SoundI::release                          :     Footsteps_Normal03 (000001DC00265408)
+[LOG] SoundI::release                          :  (000001DC62C2EF08)
+[LOG] SoundI::release                          :     Footsteps_Normal04 (000001DC001C1DB8)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
@@ -45,3 +264,5 @@
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
 [LOG] SystemI::close                           : Closed.
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)

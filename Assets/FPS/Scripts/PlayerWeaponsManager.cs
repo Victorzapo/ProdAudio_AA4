@@ -79,6 +79,11 @@ public class PlayerWeaponsManager : MonoBehaviour
     WeaponSwitchState m_WeaponSwitchState;
     int m_WeaponSwitchNewWeaponIndex;
 
+    //AUDIO VARIABLES
+    [FMODUnity.EventRef]
+    public string fmodEventPath = "";
+    private FMOD.Studio.EventInstance shootInstance;
+
     private void Start()
     {
         activeWeaponIndex = -1;
@@ -100,6 +105,8 @@ public class PlayerWeaponsManager : MonoBehaviour
             AddWeapon(weapon);
         }
         SwitchWeapon(true);
+
+        shootInstance = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/2D/Player/Player_shoot");
     }
 
     private void Update()
@@ -123,6 +130,9 @@ public class PlayerWeaponsManager : MonoBehaviour
             {
                 m_AccumulatedRecoil += Vector3.back * activeWeapon.recoilForce;
                 m_AccumulatedRecoil = Vector3.ClampMagnitude(m_AccumulatedRecoil, maxRecoilDistance);
+
+                //AUDIO SHOOT
+                shootInstance.start();
             }
         }
 

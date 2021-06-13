@@ -64,6 +64,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ActivateReverb.cs" />
+    <Compile Include="Assets\ChangeBackgroundMusic.cs" />
+    <Compile Include="Assets\EnemyShootSound.cs" />
     <Compile Include="Assets\FPS\Scripts\Actor.cs" />
     <Compile Include="Assets\FPS\Scripts\ActorsManager.cs" />
     <Compile Include="Assets\FPS\Scripts\AudioManager.cs" />
@@ -141,6 +144,8 @@
     <Compile Include="Assets\FPS\Scripts\WeaponController.cs" />
     <Compile Include="Assets\FPS\Scripts\WeaponFuelCellHandler.cs" />
     <Compile Include="Assets\FPS\Scripts\WeaponPickup.cs" />
+    <Compile Include="Assets\Prod Audio\Scripts\AudioFootsteps.cs" />
+    <Compile Include="Assets\Prod Audio\Scripts\TriggerAlarm.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne_License.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -766,18 +771,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{ADDD5670-50FF-C7F7-0EB5-6F0C062919B7}</Project>
-      <Name>NavMeshComponentsEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2DPlatformer.Tutorials.csproj">
-      <Project>{6B14046B-6008-C1F5-89EC-CCFB7191B558}</Project>
-      <Name>Unity.2DPlatformer.Tutorials</Name>
-    </ProjectReference>
-    <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{B3C5A73B-E754-1116-B2D9-15FB674C787B}</Project>
-      <Name>NavMeshComponents</Name>
-    </ProjectReference>
     <ProjectReference Include="FMODUnity.csproj">
       <Project>{140CC6FA-8BAB-0DC1-2C5B-2AF3ECE8F99D}</Project>
       <Name>FMODUnity</Name>
@@ -786,9 +779,21 @@
       <Project>{024AD29F-8B83-18FE-011B-BBFDEF5AF573}</Project>
       <Name>FMODUnityResonance</Name>
     </ProjectReference>
+    <ProjectReference Include="NavMeshComponentsEditor.csproj">
+      <Project>{ADDD5670-50FF-C7F7-0EB5-6F0C062919B7}</Project>
+      <Name>NavMeshComponentsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2DPlatformer.Tutorials.csproj">
+      <Project>{6B14046B-6008-C1F5-89EC-CCFB7191B558}</Project>
+      <Name>Unity.2DPlatformer.Tutorials</Name>
+    </ProjectReference>
     <ProjectReference Include="FMODUnityResonanceEditor.csproj">
       <Project>{C9A66FC8-FAB9-56A2-FD7F-0411CAD82EC8}</Project>
       <Name>FMODUnityResonanceEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponents.csproj">
+      <Project>{B3C5A73B-E754-1116-B2D9-15FB674C787B}</Project>
+      <Name>NavMeshComponents</Name>
     </ProjectReference>
     <ProjectReference Include="FMODUnityEditor.csproj">
       <Project>{49065832-D47C-5E77-1C36-147FE0074C84}</Project>
